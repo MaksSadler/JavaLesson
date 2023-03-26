@@ -30,3 +30,6 @@ git reset
 ```
 git chekout (номер коммита)
 ```
+## **Работа с изображениями Markdown**
+Чтобы вставить изображение (текст) необходимо написать следующее:
+![Dodge Charger](1667512818_32-sportishka-com-p-mashina-vin-dizelya-pinterest-34.jpg) 
