@@ -1,3 +1,4 @@
+//Псевдокод
 numbers = [2,5,13,7,6,4]
 sum = 0
 avg = 0
@@ -7,3 +8,24 @@ while numbers[index] < numbers.length
     index = index + 1
 avg = sum/size
 print(avg)    
+//Реализация кода на Java 
+public class Main
+{
+    public static void main(String[] args) {
+       int numbers[] = new int[6]; //  [2,5,13,7,6,4]
+       numbers[0] = 2;             //По идее логика правильная, код работает.
+       numbers[1] = 5;
+       numbers[2] = 13;
+       numbers[3] = 7;
+       numbers[4] = 6;
+       numbers[5] = 4;
+int sum = 0;
+int avg = 0;
+int index = 0;
+while (numbers[index] < numbers.length) {
+    sum = sum + numbers[index];
+    index = index + 1;}
+avg = sum/numbers.length;
+        System.out.println(avg);
+    }
+}
