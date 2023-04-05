@@ -396,7 +396,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
-/GitInstructionWorkshop_2023-04-02
-/GitTutorial3.1
-/gitignore
-/workshop
+/GitInstructionWorkshop_2023-04-02/
+/GitTutorial3.1/
+/gitignore/
+/workshop/
