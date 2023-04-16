@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Введите пятизначное число: ");
+﻿Console.WriteLine("Введите пятизначное значение: ");
 string input = Console.ReadLine();
 int len = input.Length;
 
@@ -15,5 +15,5 @@ if (len == 5)
 }
 else
 {
-    Console.WriteLine($"{input} - не является пятизначным числом");
+    Console.WriteLine($"{input} - не является пятизначным значением");
 }
