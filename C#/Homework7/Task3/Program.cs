@@ -24,7 +24,7 @@ for (int j = 0; j < array.GetLength(1); j++)
     {
         sum += array[i, j];
     }
-    Console.Write($"{ sum / array.GetLength(0)} ");
+    Console.Write($"{ sum / array.GetLength(0)} | ");
 }
 
 
